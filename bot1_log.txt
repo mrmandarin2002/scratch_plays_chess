@@ -1,0 +1,217 @@
+BOT 1: 16:53:07 Successfully Logged InBOT 1: 16:53:15 Found Game!BOT 1: 16:53:15 Playing as WhiteBOT 1: 16:53:16 Engine Calculation Time: 0.03BOT 1: 16:53:16 Engine Calculation Depth: 15.0BOT 1: 16:53:16 Move #1BOT 1: 16:53:16 Move Translator Output: c2c4BOT 1: 16:53:16 Board:BOT 1: 16:53:16 
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+. . . . . . . .
+P P . P P P P P
+R N B Q K B N RBOT 1: 16:53:18 Move #2BOT 1: 16:53:18 Move Translator Output: d7d5BOT 1: 16:53:18 Board:BOT 1: 16:53:18 
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . P . . . . .
+. . . . . . . .
+P P . P P P P P
+R N B Q K B N RBOT 1: 16:53:19 Engine Calculation Time: 0.029833333333333333BOT 1: 16:53:19 Engine Calculation Depth: 14.972222222222221BOT 1: 16:53:19 Move #3BOT 1: 16:53:19 Move Translator Output: c4d5BOT 1: 16:53:19 Board:BOT 1: 16:53:19 
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . P . . . .
+. . . . . . . .
+. . . . . . . .
+P P . P P P P P
+R N B Q K B N RBOT 1: 16:53:21 Move #4BOT 1: 16:53:21 Move Translator Output: d8d5BOT 1: 16:53:21 Board:BOT 1: 16:53:21 
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . q . . . .
+. . . . . . . .
+. . . . . . . .
+P P . P P P P P
+R N B Q K B N RBOT 1: 16:53:21 Engine Calculation Time: 0.029833333333333333BOT 1: 16:53:21 Engine Calculation Depth: 14.972222222222221BOT 1: 16:53:21 Move #5BOT 1: 16:53:21 Move Translator Output: b1c3BOT 1: 16:53:21 Board:BOT 1: 16:53:21 
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . q . . . .
+. . . . . . . .
+. . N . . . . .
+P P . P P P P P
+R . B Q K B N RBOT 1: 16:53:23 Move #6BOT 1: 16:53:23 Move Translator Output: d5e5BOT 1: 16:53:23 Board:BOT 1: 16:53:23 
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . q . . .
+. . . . . . . .
+. . N . . . . .
+P P . P P P P P
+R . B Q K B N RBOT 1: 16:53:23 Engine Calculation Time: 0.029833333333333333BOT 1: 16:53:23 Engine Calculation Depth: 14.972222222222221BOT 1: 16:53:23 Move #7BOT 1: 16:53:23 Move Translator Output: d2d4BOT 1: 16:53:23 Board:BOT 1: 16:53:23 
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . q . . .
+. . . P . . . .
+. . N . . . . .
+P P . . P P P P
+R . B Q K B N RBOT 1: 16:53:26 Move #8BOT 1: 16:53:26 Move Translator Output: e5d4BOT 1: 16:53:26 Board:BOT 1: 16:53:26 
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . . . . .
+. . . q . . . .
+. . N . . . . .
+P P . . P P P P
+R . B Q K B N RBOT 1: 16:53:26 Engine Calculation Time: 0.029666666666666668BOT 1: 16:53:26 Engine Calculation Depth: 14.944444444444445BOT 1: 16:53:26 Move #9BOT 1: 16:53:26 Move Translator Output: d1d4BOT 1: 16:53:26 Board:BOT 1: 16:53:26 
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . . . . .
+. . . Q . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:28 Move #10BOT 1: 16:53:28 Move Translator Output: b8c6BOT 1: 16:53:28 Board:BOT 1: 16:53:28 
+r . b . k b n r
+p p p . p p p p
+. . n . . . . .
+. . . . . . . .
+. . . Q . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:29 Engine Calculation Time: 0.029666666666666668BOT 1: 16:53:29 Engine Calculation Depth: 14.944444444444445BOT 1: 16:53:29 Move #11BOT 1: 16:53:29 Move Translator Output: d4c4BOT 1: 16:53:29 Board:BOT 1: 16:53:29 
+r . b . k b n r
+p p p . p p p p
+. . n . . . . .
+. . . . . . . .
+. . Q . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:31 Move #12BOT 1: 16:53:31 Move Translator Output: c6e5BOT 1: 16:53:31 Board:BOT 1: 16:53:31 
+r . b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . n . . .
+. . Q . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:31 Engine Calculation Time: 0.029666666666666668BOT 1: 16:53:31 Engine Calculation Depth: 14.944444444444445BOT 1: 16:53:31 Move #13BOT 1: 16:53:31 Move Translator Output: c4c5BOT 1: 16:53:31 Board:BOT 1: 16:53:31 
+r . b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . Q . n . . .
+. . . . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:36 Move #14BOT 1: 16:53:36 Move Translator Output: e7e6BOT 1: 16:53:36 Board:BOT 1: 16:53:36 
+r . b . k b n r
+p p p . . p p p
+. . . . p . . .
+. . Q . n . . .
+. . . . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:36 Engine Calculation Time: 0.0295BOT 1: 16:53:36 Engine Calculation Depth: 14.916666666666668BOT 1: 16:53:36 Move #15BOT 1: 16:53:36 Move Translator Output: c5e5BOT 1: 16:53:36 Board:BOT 1: 16:53:36 
+r . b . k b n r
+p p p . . p p p
+. . . . p . . .
+. . . . Q . . .
+. . . . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:40 Move #16BOT 1: 16:53:40 Move Translator Output: f8b4BOT 1: 16:53:40 Board:BOT 1: 16:53:40 
+r . b . k . n r
+p p p . . p p p
+. . . . p . . .
+. . . . Q . . .
+. b . . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:40 Engine Calculation Time: 0.0295BOT 1: 16:53:40 Engine Calculation Depth: 14.916666666666668BOT 1: 16:53:40 Move #17BOT 1: 16:53:40 Move Translator Output: e5g7BOT 1: 16:53:40 Board:BOT 1: 16:53:40 
+r . b . k . n r
+p p p . . p Q p
+. . . . p . . .
+. . . . . . . .
+. b . . . . . .
+. . N . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:44 Move #18BOT 1: 16:53:44 Move Translator Output: b4c3BOT 1: 16:53:44 Board:BOT 1: 16:53:44 
+r . b . k . n r
+p p p . . p Q p
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+. . b . . . . .
+P P . . P P P P
+R . B . K B N RBOT 1: 16:53:44 Engine Calculation Time: 0.0295BOT 1: 16:53:44 Engine Calculation Depth: 14.916666666666668BOT 1: 16:53:44 Move #19BOT 1: 16:53:44 Move Translator Output: b2c3BOT 1: 16:53:44 Board:BOT 1: 16:53:44 
+r . b . k . n r
+p p p . . p Q p
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:53:51 Move #20BOT 1: 16:53:51 Move Translator Output: g8e7BOT 1: 16:53:51 Board:BOT 1: 16:53:51 
+r . b . k . . r
+p p p . n p Q p
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:53:51 Engine Calculation Time: 0.029333333333333333BOT 1: 16:53:51 Engine Calculation Depth: 14.88888888888889BOT 1: 16:53:51 Move #21BOT 1: 16:53:51 Move Translator Output: g7h8BOT 1: 16:53:51 Board:BOT 1: 16:53:51 
+r . b . k . . Q
+p p p . n p . p
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:53:54 Move #22BOT 1: 16:53:54 Move Translator Output: e8d7BOT 1: 16:53:54 Board:BOT 1: 16:53:54 
+r . b . . . . Q
+p p p k n p . p
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:53:55 Engine Calculation Time: 0.029333333333333333BOT 1: 16:53:55 Engine Calculation Depth: 14.88888888888889BOT 1: 16:53:55 Move #23BOT 1: 16:53:55 Move Translator Output: h8h7BOT 1: 16:53:55 Board:BOT 1: 16:53:55 
+r . b . . . . .
+p p p k n p . Q
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:53:59 Move #24BOT 1: 16:53:59 Move Translator Output: b7b5BOT 1: 16:53:59 Board:BOT 1: 16:53:59 
+r . b . . . . .
+p . p k n p . Q
+. . . . p . . .
+. p . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:53:59 Engine Calculation Time: 0.029333333333333333BOT 1: 16:53:59 Engine Calculation Depth: 14.88888888888889BOT 1: 16:53:59 Move #25BOT 1: 16:53:59 Move Translator Output: h7f7BOT 1: 16:53:59 Board:BOT 1: 16:53:59 
+r . b . . . . .
+p . p k n Q . .
+. . . . p . . .
+. p . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:54:02 Move #26BOT 1: 16:54:02 Move Translator Output: c8b7BOT 1: 16:54:02 Board:BOT 1: 16:54:02 
+r . . . . . . .
+p b p k n Q . .
+. . . . p . . .
+. p . . . . . .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . B . K B N RBOT 1: 16:54:02 Engine Calculation Time: 0.029166666666666664BOT 1: 16:54:02 Engine Calculation Depth: 14.86111111111111BOT 1: 16:54:02 Move #27BOT 1: 16:54:02 Move Translator Output: c1g5BOT 1: 16:54:02 Board:BOT 1: 16:54:02 
+r . . . . . . .
+p b p k n Q . .
+. . . . p . . .
+. p . . . . B .
+. . . . . . . .
+. . P . . . . .
+P . . . P P P P
+R . . . K B N R
