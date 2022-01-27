@@ -1,6 +1,6 @@
 import time
 
-from selenium.webdriver import Chrome
+from undetected_chromedriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 
