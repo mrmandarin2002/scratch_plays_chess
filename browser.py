@@ -247,6 +247,7 @@ class Browser:
         sleep(delay)
         action_3.perform()
         action_4.perform()
+        self.logs_manager.move(self.game_id, move)
 
 
     def refresh_moves(self) -> None:
@@ -278,6 +279,7 @@ class Browser:
         while len(self.moves) == moves_len:
             self.refresh_moves()
 
+        self.logs_manager.move(self.game_id, self.moves[-1])
         return self.moves[-1]
 
 
