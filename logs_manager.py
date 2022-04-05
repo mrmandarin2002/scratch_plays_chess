@@ -50,8 +50,6 @@ class LogsManager(Thread):
         self.running = False
         self.finished = False
 
-        self.start()
-
 
     def load_logs(self, filename: str):
         """

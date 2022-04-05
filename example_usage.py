@@ -13,23 +13,21 @@ if __name__ == "__main__":
 
     credentials = load_credentials(config.credentials_filename)
 
-    logs_manager = LogsManager(config.logs_filename)
+    with LogsManager(config.logs_filename) as logs_manager:
 
-    browser = Browser(credentials[0], "chromedriver", logs_manager)
+        browser = Browser(credentials[0], "chromedriver", logs_manager)
 
-    browser.login()
+        browser.login()
 
-    try:
-        browser.find_new_game("5 min")
-    except Exception as e: # this went off once, still don't know why
-        print(f"PROBLEM HAPPENED: {e}")
+        try:
+            browser.find_new_game("5 min")
+        except Exception as e: # this went off once, still don't know why
+            print(f"PROBLEM HAPPENED: {e}")
 
-    sleep(3)
-    if browser.playing_white:
-        browser.move("h2h3")
+        sleep(3)
+        if browser.playing_white:
+            browser.move("h2h3")
 
-    while True:
-        browser.refresh_moves()
-        sleep(1)
-
-    sleep(3600)
+        while True:
+            browser.refresh_moves()
+            sleep(1)
