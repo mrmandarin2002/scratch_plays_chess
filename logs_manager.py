@@ -25,7 +25,7 @@ def construct_log(log: List) -> Log:
 
 
 def serialize_log(log: Log) -> List:
-    return (log.event, log.game_id, log.data)
+    return [log.event, log.game_id, log.data]
 
 
 class LogsManager(Thread):
@@ -45,10 +45,12 @@ class LogsManager(Thread):
                 self.logs = []
             self.game_ids = [log.game_id for log in self.logs]
 
-        self.logs_file = open(filename, "w")
+        self.logs_filename = filename
         self.logs_queue = []
         self.running = False
         self.finished = False
+
+        self.start()
 
 
     def load_logs(self, filename: str):
@@ -64,7 +66,8 @@ class LogsManager(Thread):
         Converts all existing logs to JSON-serializable format then dumps them
         to `self.logs_file`.
         """
-        dump([serialize_log(log) for log in self.logs], self.logs_file)
+        with open(self.logs_filename, "w") as logs_file:
+            dump([serialize_log(log) for log in self.logs], logs_file)
 
 
     def new_event(self, event: str, game_id: int, data: str):
