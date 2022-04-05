@@ -181,9 +181,11 @@ class Browser:
             click_element("button", PLAY_BUTTON_TEXT, self.webdriver)
         else:
             for c in TIME_CATEGORIES:
-                if in_page_text(c, self.webdriver):
+                try:
                     click_element("button", c, self.webdriver)
                     break
+                except ElementNotFound:
+                    pass
 
             sleep(1)
 
