@@ -30,7 +30,6 @@ if __name__ == "__main__":
 
     while True:
         browser.refresh_moves()
-        print(browser.get_own_clock(), browser.get_opponent_clock())
         sleep(1)
 
     sleep(3600)
