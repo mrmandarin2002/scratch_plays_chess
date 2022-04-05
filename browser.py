@@ -195,6 +195,7 @@ class Browser:
 
         while not in_page_text(MATCHMAKING_TEXT, self.webdriver): pass
         while in_page_text(MATCHMAKING_TEXT, self.webdriver): pass
+        sleep(1)
 
         self.new_game()
 
