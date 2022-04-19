@@ -8,6 +8,7 @@ class Config:
     credentials_filename: str
     logs_filename: str
     engine_config_filename: str
+    wrapper_config_filename: str
 
 
 def load_config(filename: str) -> Config:

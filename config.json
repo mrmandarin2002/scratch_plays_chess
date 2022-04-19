@@ -1,5 +1,6 @@
 {
     "credentials_filename": "credentials.json",
     "logs_filename": "logs.json",
-    "engine_config_filename": "engine_config.json"
+    "engine_config_filename": "engine_config.json",
+    "wrapper_config_filename": "wrapper_config.json"
 }
