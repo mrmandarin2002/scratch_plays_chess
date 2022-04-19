@@ -143,7 +143,7 @@ class EngineWrapper:
             Limit(time=self.engine_time(), depth=self.engine_depth()),
             multipv=self.engine_config.multipv
         )
-        return self.get_moves(analysis)
+        return self.filter_moves(analysis)
 
 
     def respond(
