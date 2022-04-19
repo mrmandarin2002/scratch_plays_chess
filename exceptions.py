@@ -3,3 +3,6 @@ class ElementNotFound(Exception):
 
 class NoChallenges(Exception):
     pass
+
+class MissingMethodOverride(Exception):
+    pass
