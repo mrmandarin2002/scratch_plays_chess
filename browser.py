@@ -250,6 +250,13 @@ class Browser:
         self.logs_manager.move(self.game_id, move)
 
 
+    def cancel_premoves(self) -> None:
+        action = ActionChains(self.webdriver)
+        action.move_to_element_with_offset(self.board_element, 20, 20)
+        action.context_click()
+        action.perform()
+
+
     def refresh_moves(self) -> None:
         self.moves = []
         for move_row in self.webdriver.find_elements("css selector", "div.move"):
