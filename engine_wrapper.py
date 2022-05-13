@@ -65,7 +65,7 @@ class EngineWrapper:
 {stack()[1].function} in {self.__class__})")
 
 
-    def new_game(self, total_time: float, time_control: float) -> None:
+    def new_game(self, total_time: float, time_control: float, win: bool) -> None:
         """
         Resets board to beginning of game, and sets total time and time control
         variables.
@@ -73,6 +73,7 @@ class EngineWrapper:
         self.board = Board()
         self.total_time = total_time
         self.time_control = time_control
+        self.win = win
 
 
     def engine_time(self) -> float:
