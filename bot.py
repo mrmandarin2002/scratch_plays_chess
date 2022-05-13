@@ -1,7 +1,7 @@
 from browser import Browser
 from engine_wrapper import EngineWrapper
 
-from exceptions import NoChallenges
+from exceptions import NoChallenges, InExistingGame
 
 
 class Bot:
@@ -14,8 +14,12 @@ class Bot:
         self.engine_wrapper = engine_wrapper
 
     def new_game(self, time_category: str, win: bool) -> None:
-        # enter matchmaking for new game if win is true, doesn't throw
-        pass
+        if self.browser.in_game:
+            raise InExistingGame("Browser object already in a game")
+
+        self.browser.find_new_game(time_category)
+        self.play(win)
+
 
     def challenge(self, username: str, time_category: str) -> None:
         # initiate a challenge to a given username for a game with a given time category
@@ -29,6 +33,11 @@ class Bot:
         # wait for challenge from username then accept the game and lose
         pass
 
-    def play(self) -> None:
-        # just start fucking playing lol
-        pass
+
+    def play(self, win: bool) -> None:
+        playing = True
+        while playing:
+            try:
+                pass
+            except KeyboardInterrupt:
+                playing = False
