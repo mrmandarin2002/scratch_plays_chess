@@ -171,6 +171,18 @@ class Browser:
         self.in_game = True
 
 
+    def challenge(self, username: str, time_category: str) -> None:
+        pass
+
+
+    def check_challenges(self) -> Union[Tuple[str, str], None]:
+        """
+        Returns username and time category of current challenge if one exists
+        else returns None
+        """
+        pass
+
+
     def find_new_game(self, time_category: str) -> None:
         self.webdriver.get(NEW_GAME_PAGE)
 
