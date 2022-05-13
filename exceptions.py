@@ -6,3 +6,6 @@ class NoChallenges(Exception):
 
 class MissingMethodOverride(Exception):
     pass
+
+class InExistingGame(Exception):
+    pass
